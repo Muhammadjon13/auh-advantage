@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">14sp</dimen>
+    <dimen name="editTextRadius">5sp</dimen>
+    <dimen name="buttonRadius">25sp</dimen>
+    <dimen name="paddingForEditText">24sp</dimen>
+</resources>

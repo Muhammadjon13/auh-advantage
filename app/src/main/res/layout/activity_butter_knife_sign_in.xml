@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.muhammadjon.assignment_1.ButterKnifeSignInActivity">
+
+    <ImageView
+        android:id="@+id/image_view_background_bk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/background"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/paddingForEditText"
+        android:paddingRight="@dimen/paddingForEditText">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="70dp"
+            android:contentDescription="@string/logo"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo_auh" />
+
+
+        <EditText
+            android:id="@+id/edit_text_email"
+            style="@style/EditText"
+            android:layout_marginTop="48dp"
+            android:drawableLeft="@drawable/ic_form_email"
+            android:drawableStart="@drawable/ic_form_email"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            style="@style/EditText"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@drawable/ic_form_password"
+            android:drawableStart="@drawable/ic_form_password"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:textAlignment="center"
+            android:text="@string/butterKnife"
+            android:textSize="@dimen/textSize"
+            android:textColor="@color/whiteColor"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="70sp"
+        android:paddingRight="70sp"
+        android:text="@string/signIn"
+        android:textSize="@dimen/textSize" />
+
+</FrameLayout>

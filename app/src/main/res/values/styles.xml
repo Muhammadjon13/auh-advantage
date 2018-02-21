@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/secondaryColor</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:textColorHint">@color/secondaryColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:drawablePadding">12dp</item>
+    </style>
+
+    <style name="WelcomeButton">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+</resources>

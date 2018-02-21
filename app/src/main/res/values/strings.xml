@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Auh Advantage</string>
+    <string name="background">Background image</string>
+    <string name="logo">Logo of Auh Advantage</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signIn">Sign In</string>
+    <string name="notification">Notification</string>
+    <string name="butterKnife">Butter Knife</string>
+    <string name="dataBinding">Data Binding</string>
+
+    <string name="selectOne">Select one</string>
+</resources>
