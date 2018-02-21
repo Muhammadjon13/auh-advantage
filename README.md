@@ -1,4 +1,4 @@
-# auh-advantage
+# AUH-Advantage
 
 Sign in activity with both With Butter Knife and Data Binding.
 
