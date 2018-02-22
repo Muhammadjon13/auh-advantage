@@ -22,7 +22,6 @@ Click __build__ -> __Rebuild Project__ to check if the databinding is working co
 * [Data Binding Library](https://developer.android.com/topic/libraries/data-binding/index.html/)
 * [Picasso](http://square.github.io/picasso/)
 
-SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
